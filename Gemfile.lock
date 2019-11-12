@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    digest-sha3 (1.1.0)
+    dotenv (2.7.5)
+    eth (0.4.10)
+      digest-sha3 (~> 1.1)
+      ffi (~> 1.0)
+      money-tree (~> 0.10.0)
+      rlp (~> 0.7.3)
+      scrypt (~> 3.0.6)
+    ffi (1.11.2)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    money-tree (0.10.0)
+      ffi
+    rake (13.0.0)
+    rlp (0.7.3)
+    scrypt (3.0.6)
+      ffi-compiler (>= 1.0, < 2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  eth
+
+BUNDLED WITH
+   1.17.2
